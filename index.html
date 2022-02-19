@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body>
+
+    <div class="flip-container">
+        <div class="flipper" id="flipper">
+            <div class="front">
+                <h1 class="title">To Do List Login</h1>
+                <img id="img" src="./images/94735-istock-863607936.jpg" alt="logo">
+               <div id="lc">
+                <a class="flipbutton" id="loginButton" href="#" style="margin-left:20% ;">Click to LogIn &rarr;</a>
+               </div>
+            </div>
+            
+            <div class="back">
+                <h1 class="title">LogIn</h1>
+                <form action="./todo.html" id="log" onsubmit="return validate(check)">
+                        <input id="username" onkeyup="validate()" type="text" required placeholder="Username" />
+                        <label id="usererr"></label>
+                        <input id="password" type="password"onkeyup="validate()"  required placeholder="Password" />
+                        <label id="passerr"></label>
+                        <button  id="loginButton1">Log In</label><br>
+                </form>
+                <br>
+              <div class="bc" style="margin-top: 10%;">
+                <a class="flipbutton" id="registerButton" href="#">Back &larr;</a>
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+<script src="./login.js"></script> 
+</body>
+</html>

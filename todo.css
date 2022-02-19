@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(107, 207, 207);
+}
+nav{
+    background-color: rgba(97, 131, 131, 0.733);
+}
+#to{
+    background-color: rgb(100, 167, 73) !important;
+}
+
+#myvid{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.active1{
+    
+    color: rgb(236, 233, 233);
+    font-weight: bold;
+    margin-left: 2%;
+}
+.grey{
+    color: rgb(177, 177, 177) ;
+    margin-left: 2%;
+}
+.box{
+  margin: 10px;
+}
+.hov:hover{
+    background-color: rgb(100, 167, 73);
+
+}
+.content{
+    position: relative;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+#ptag{
+    
+    color: rgb(252, 248, 8); 
+    margin-top: 5%;
+    margin-left: 60%;
+    width: 30%;
+    position: fixed;
+}
+::-webkit-scrollbar{
+   width: 15px;
+   border-radius: 20px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1ff;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(119, 113, 113);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
